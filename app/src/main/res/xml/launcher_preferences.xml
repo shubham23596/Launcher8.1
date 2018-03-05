@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.preference.PreferenceScreen android:title="Settings"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <ch.deletescape.lawnchair.settings.ui.SubPreference
+        android:icon="@drawable/ic_homescreen"
+        android:title="Home Screen"
+        app:content="@xml/launcher_desktop_preferences" />
+    <ch.deletescape.lawnchair.settings.ui.SubPreference
+        android:title="Other Settings"
+        android:icon="@drawable/ic_othersettings"
+        app:content="@xml/launcher_behavior_preferences" />
+
+    <ch.deletescape.lawnchair.settings.ui.SubPreference
+        android:title="@string/pixel_ui_pref_title"
+        android:icon="@drawable/ic_ui"
+        app:content="@xml/launcher_theme_preferences" />
+    <ch.deletescape.lawnchair.settings.ui.SubPreference
+        android:icon="@drawable/ic_drawer"
+        android:title="@string/app_drawer_pref_title"
+        app:content="@xml/launcher_app_drawer_preferences" />
+
+    <ch.deletescape.lawnchair.settings.ui.SubPreference
+        android:icon="@drawable/ic_dock"
+        android:title="@string/dock_pref_title"
+        app:content="@xml/launcher_dock_preferences" />
+
+    <ch.deletescape.lawnchair.settings.ui.SubPreference
+        android:title="@string/about_title"
+        android:icon="@drawable/ic_information"
+        app:content="@xml/launcher_about_preferences" />
+
+</android.support.v7.preference.PreferenceScreen>

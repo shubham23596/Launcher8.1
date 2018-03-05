@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Oreo Launcher 8.1</string>
+    <string name="update_available_title">Update available</string>
+    <string name="update_available">A new version of Oreo Launcher 8.1 is available to download!</string>
+    <string name="downloading_toast">Downloading...</string>
+    <string name="download_file_error">Error downloading file</string>
+</resources>

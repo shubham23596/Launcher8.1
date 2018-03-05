@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ch.deletescape.lawnchair.settings.ui.AboutPreference
+        android:title="@string/about_summary_title"
+        android:key="about"
+        android:summary="Launcher Oreo 8.1 is based upon Lawnchair Launcher, Licensed under GPL V3.0" />
+
+    <Preference
+        android:key="about_version"
+        android:title="@string/about_version" />
+</android.support.v7.preference.PreferenceScreen>
